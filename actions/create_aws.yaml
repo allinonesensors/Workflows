@@ -1,0 +1,7 @@
+---
+name: vm_workflow
+pack: email_vm
+description: Process an github deployment event and install a pack if the environment matches.
+enabled: true
+entry_point: workflows/create_aws.yaml
+runner_type: orquesta

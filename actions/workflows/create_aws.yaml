@@ -1,0 +1,10 @@
+---
+version: '1.0'
+
+description: A workflow to process an github deployment event and install a pack if the environment matches.
+  
+tasks:
+  create_vm:
+    action: email_vm.create_instance
+    
+   
