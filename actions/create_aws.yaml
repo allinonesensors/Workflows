@@ -1,5 +1,5 @@
 ---
-name: vm_workflow
+name: create_aws
 pack: email_vm
 description: Process an github deployment event and install a pack if the environment matches.
 enabled: true
