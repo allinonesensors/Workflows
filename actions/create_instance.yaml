@@ -1,6 +1,6 @@
 ---
 name: create_instance
-pack: email_vm
+pack: emailvm
 runner_type: "python-script"
 description: action create instance!
 enabled: true
