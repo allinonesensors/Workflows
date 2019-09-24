@@ -1,17 +1,17 @@
 ---
 name: Sample123
 description: "Rule which sends an email when an email from johndoe@gmail.com is received"
-pack: email_vm
+pack: emailvm
 enabled: true
 trigger:
-  type: email_vm.imap.message
+  type: emailvm.imap.message
   parameters: {}
 criteria:
   trigger.subject:
     pattern: create vm 
     type: contains
 action:
-  ref: email_vm.create_aws
+  ref: emailvm.create_aws
   parameters:
     ImageId: 'ami-0d2692b6acea72ee6'
     InstanceType: 't2.micro'
