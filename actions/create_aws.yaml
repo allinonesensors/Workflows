@@ -5,3 +5,24 @@ description: Process an github deployment event and install a pack if the enviro
 enabled: true
 entry_point: workflows/create_aws.yaml
 runner_type: orquesta
+parameters:
+     ImageId:
+        type: "string"
+        description: "Enter the AWS EC2 Image ID"
+        required: true 
+        position: 0
+        
+     InstanceType:
+        type: "string"
+        description: "Enter the AWS EC2 Image ID"
+        default: "t2.micro"
+        required: true 
+        position: 1
+        
+     KeyName:
+        type: "string"
+        description: "Enter the AWS EC2 Image ID"
+        default: "ec2-keypair"
+        required: true 
+        position: 2
+        
