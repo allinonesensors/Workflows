@@ -1,5 +1,5 @@
 ---
-name: Sample123
+name: sample123
 description: "Rule which sends an email when an email from johndoe@gmail.com is received"
 pack: emailvm
 enabled: true
