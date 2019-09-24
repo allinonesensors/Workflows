@@ -11,7 +11,7 @@ criteria:
     pattern: create vm 
     type: contains
 action:
-  ref: emailvm.create_aws
+  ref: emailvm.create_instance
   parameters:
     ImageId: 'ami-0d2692b6acea72ee6'
     InstanceType: 't2.micro'
