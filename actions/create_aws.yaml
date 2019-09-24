@@ -1,6 +1,6 @@
 ---
 name: create_aws
-pack: email_vm
+pack: emailvm
 description: Process an github deployment event and install a pack if the environment matches.
 enabled: true
 entry_point: workflows/create_aws.yaml
