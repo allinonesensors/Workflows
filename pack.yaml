@@ -1,6 +1,6 @@
 ---
-ref: email_vm
-name: email_vm
+ref: emailvm
+name: emailvm
 description: E-Mail Actions/Sensors for StackStorm
 keywords:
   - emailaction
