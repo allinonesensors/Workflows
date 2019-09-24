@@ -5,6 +5,6 @@ description: A workflow to process an github deployment event and install a pack
   
 tasks:
   create_instance:
-    action: email_vm.create_instance
+    action: emailvm.create_instance
     
    
